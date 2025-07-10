@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tourism Management Design</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Login Screen -->
+  <section class="screen">
+    <h1>Tourism Management System</h1>
+    <div class="form">
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <select>
+        <option>Select Role</option>
+        <option>Admin</option>
+        <option>Tourist</option>
+        <option>Guide</option>
+      </select>
+      <button>Login</button>
+      <p class="error">Invalid login credentials</p>
+    </div>
+  </section>
+
+  <!-- Admin Dashboard -->
+  <section class="screen">
+    <h2>Admin Dashboard</h2>
+    <div class="tabs">
+      <button>Tourists</button>
+      <button>Guides</button>
+      <button>Attractions</button>
+      <button>Bookings</button>
+    </div>
+    <div class="table">
+      <h3>All Bookings</h3>
+      <p><strong>Tourist:</strong> Justin Bieber| <strong>Guide:</strong> Suman T. | <strong>Place:</strong> Everest Base Camp | <strong>Date:</strong> 2025-07-15</p>
+      <p><strong>Tourist:</strong> Allu Arjun | <strong>Guide:</strong> Laxmi P. | <strong>Place:</strong> Annapurna Circuit | <strong>Date:</strong> 2025-08-05</p>
+      <p><strong>Tourist:</strong> Alex Turner | <strong>Guide:</strong> Bishal R. | <strong>Place:</strong> Poon Hill | <strong>Date:</strong> 2025-07-20</p>
+      <div class="table-controls">
+        <button>Add</button>
+        <button>Edit</button>
+        <button>Delete</button>
+      </div>
+    </div>
+     <div class="section">
+      <a href="reports.html"><strong>View Reports & Export CSV</strong></a>
+    </div>
+    <div class="top-bar">
+      <button>Logout</button>
+    </div>
+  </section>
+
+  <!-- Tourist Dashboard -->
+  <section class="screen">
+    <h2>Tourist Dashboard</h2>
+
+    <div class="section">
+      <h3>Browse Attractions</h3>
+      <div class="table">
+        <p>Everest Base Camp</p>
+        <p>Annapurna Circuit</p>
+        <p>Langtang Valley</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Select Guide</h3>
+      <select><option>Select Guide</option></select>
+      <button>Book</button>
+      <p><strong> Dashain Discount Applied: 12%</strong></p>
+    </div>
+
+    <div class="section">
+      <h3>My Bookings</h3>
+      <div class="table">
+        <p><strong>Attraction:</strong> Everest Base Camp | <strong>Guide:</strong> Suman Tamang | <strong>Booking ID:</strong> BK123 | <strong>Date:</strong> 2025-07-15 <button class="alert">Report Emergency</button></p>
+      </div>
+    </div>
+
+
+  <!-- Guide Dashboard -->
+  <section class="screen">
+    <h2>Guide Dashboard</h2>
+
+    <div class="guide-layout">
+      <div>
+        <h3>My Bookings</h3>
+        <ul>
+          <li>Booking: Everest Base Camp | Tourist: Justin Bieber | Date: 2025-07-15</li>
+          <li>Booking: Annapurna Circuit| Tourist: Allu Arjun | Date: 2025-08-01</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tourist Info</h3>
+        <p>Name: Justin Bieber</p>
+        <p>Nationality: USA</p>
+        <p>Contact: +123456789</p>
+
+        <h3>Attraction Info</h3>
+        <p>Location: Everest Base Camp</p>
+        <p>Difficulty: High</p>
+        <p><strong>Date:</strong> 2025-07-15</p>
+
+        <p><strong> Dashain Discount Applied: 12%</strong></p>
+      </div>
+    </div>
+
+    <div class="top-bar">
+      <button>Logout</button>
+    </div>
+  </section>
+
+</body>
+</html>
