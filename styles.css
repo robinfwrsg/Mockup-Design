@@ -24,6 +24,23 @@ h1, h2 {
   color: #4b3b2c;
 }
 
+/* Title container for logo and text alignment */
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Logo styling */
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 60%;
+  object-fit: cover;
+  background-color: #e3e3e3; /* Placeholder background color */
+}
+
 /* Form container */
 .form {
   background-color: white;
@@ -102,7 +119,6 @@ button:hover {
   background: linear-gradient(145deg, #d4885f, #e7b58a);
   transform: translateY(-2px);
 }
-
 
 /* Table container */
 .table, .section {
